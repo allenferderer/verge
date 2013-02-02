@@ -18,7 +18,7 @@ get ('/say/:message',function($app) {
 
 post('/signup', function($app) {
 
-   $app->set('message', 'Thanks for signing up  <b>' . $app->form('name') . '!</b>');
+   $app->set('message', 'Thanks for signing up <b>' . $app->form('name') . ' you dog!</b>');
    $app->render('home');
 });
 
